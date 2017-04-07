@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src='jquery.js'></script>
+</head>
+<body>
+	<button id="btn"></button>
+	<script>
+	$("#btn").on('click',function(){
+		console.log("我没有点击，自动触发的")
+	}).trigger('click');
+	// $("#btn").trigger('click');
+	</script>
+</body>
+</html>

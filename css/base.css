@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+
+    /*-webkit-tap-highlight-color: transparent;*/
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.14rem;
+    /*color: #333;*/
+    font-family: "MicroSoft YaHei", "sans-serif";
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+    resize: none;
+
+    -webkit-appearance: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: ".";
+    line-height: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.mainColor {
+    color: #EE3A45;
+}
+.bg1 {
+    background: #E3393C;
+}
+.bg2 {
+    background: #FF5E5C;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/*=============公共样式=================*/
